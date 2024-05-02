@@ -44,13 +44,7 @@ const HeroComponent = () => {
 
         </ul>
 
-        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
-          <IoChevronBack name="chevron-back"/>
-        </button>
-
-        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
-          <IoChevronForward name="chevron-forward"/>
-        </button>
+       
 
       
 
