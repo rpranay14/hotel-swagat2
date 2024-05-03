@@ -15,8 +15,8 @@ const FavouriteMenu = () => {
     <div id='rooms' className={`${lora.className} bg-[#222222]  pb-16 pt-16`}>
       <p className={`${lora.className} text-[#AA8453] text-lg  text-center`}>Hotel Swagat</p>
       <p className={`${lora.className} font-normal text-[#fff] text-x5l mt-2 mb-12 text-center`}>Rooms & Suites</p>
-      <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
-        <div className='w-[28rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
+      <div className='flex flex-wrap flex-col lg:flex-row items-center justify-center gap-12'>
+        <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
           <Image src={FIRST} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>Deluxe Double Room AC</p>
@@ -29,7 +29,7 @@ const FavouriteMenu = () => {
           </div>
         </div>
 
-        <div className='w-[28rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
+        <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
           <Image src={SECOND} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>FAMILY DELUXE ROOM AC</p>
@@ -41,10 +41,7 @@ const FavouriteMenu = () => {
           <p></p>
           </div>
         </div>
-
-      </div>
-      <div className='flex flex-col lg:flex-row mt-12 items-center justify-center gap-12'>
-        <div className='w-[28rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
+        <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
           <Image src={FIRST} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>DELUXE ROOM</p>
@@ -57,7 +54,7 @@ const FavouriteMenu = () => {
           </div>
         </div>
 
-        <div className='w-[28rem] sm:w-[35rem]lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
+        <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
           <Image src={SECOND} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>SUPER DELUXE ROOM </p>
@@ -69,6 +66,10 @@ const FavouriteMenu = () => {
           <p></p>
           </div>
         </div>
+
+      </div>
+      <div className='flex flex-col lg:flex-row mt-12 items-center justify-center gap-12'>
+      
 
       </div>
 
