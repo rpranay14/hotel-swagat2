@@ -12,8 +12,8 @@ const lora = Lora({ subsets: ['latin'] })
 
 const FavouriteMenu = () => {
   return (
-    <div id='rooms' className={`${lora.className} bg-[#222222]  pb-16 pt-16`}>
-      <p className={`${lora.className} text-[#AA8453] text-lg  text-center`}>Hotel Swagat</p>
+    <div id='rooms' className={`${lora.className} bg-[#222222] sm:px-2 md:px-10 lg:px-48  pb-16 pt-16`}>
+      <p className={`${lora.className} text-[#AA8453] text-base md:text-lg  text-center`}>Hotel Swagat</p>
       <p className={`${lora.className} font-normal text-[#fff] text-x5l mt-2 mb-12 text-center`}>Rooms & Suites</p>
       <div className='flex flex-wrap flex-col lg:flex-row items-center justify-center gap-12'>
         <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>

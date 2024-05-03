@@ -10,7 +10,7 @@ import { GiSecurityGate } from "react-icons/gi";
 
 const HotelServices = () => {
   return (
-    <div id="services" className={`${lora.className} bg-[#F8F5F0]  pb-28 pt-28`}>
+    <div id="services" className={`${lora.className} bg-[#F8F5F0] px-2 lg:px-36  pb-28 pt-28`}>
       <p className={`${lora.className} text-[#AA8453] text-lg  text-center`}>Our Services</p>
       <p className={`${lora.className} font-normal text-[#000] text-x5l mt-2 mb-12 text-center`}>Hotel Facilities</p>
       <div className='flex flex-wrap items-center justify-center  gap-3'>

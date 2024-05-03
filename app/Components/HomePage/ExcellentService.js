@@ -9,7 +9,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 const lora = Lora({ subsets: ['latin'] })
 const ExcellentService = () => {
   return (
-    <section id='aboutus'  className='flex flex-col sm:flex sm:flex-col lg:flex lg:flex-row bg-white justify-center items-center gap:12 lg:gap-20 pt-36  pb-36'>
+    <section id='aboutus'  className=' px-2 flex flex-col sm:flex sm:flex-col lg:flex lg:flex-row bg-white justify-center items-center gap:12 lg:gap-20 pt-36  pb-36'>
         <div initial={{x:-400}}  transition={{
   ease: "linear",
   duration: 1,
@@ -19,7 +19,7 @@ const ExcellentService = () => {
   ease: "linear",
   duration: 2,
 }}
- initial={{opacity:0}} whileInView={{opacity:1}}  className={`${lora.className}  text-custom font-medium font-sans color-[#000]`}>Experience Tranquil Luxury in the Heart of Mount Abu, Rajasthan</div>
+ initial={{opacity:0}} whileInView={{opacity:1}}  className={`${lora.className} text-x2l lg:text-custom font-medium font-sans color-[#000]`}>Experience Tranquil Luxury in the Heart of Mount Abu, Rajasthan</div>
 <div transition={{
   ease: "linear",
   duration: 2,
@@ -34,7 +34,7 @@ const ExcellentService = () => {
         <MdOutlinePhoneInTalk className='text-[#AA8453] w-12 h-12 gap-2'/>
         <div>
           <p className=''>Reservation</p>
-          <p className='text-xl font-semibold text-[#AA8453] '>0987654321</p>
+          <p className='text-lg mb-5 lg:mb-0  md:text-xl font-semibold text-[#AA8453] '>0987654321</p>
         </div>
        </div>
         </div>

@@ -24,12 +24,12 @@ const HeroComponent = () => {
 
            
 
-            <h1 className={`${lora.className} text-xtra text-[#fbfbfb] hero-title slider-reveal mb-5`}>
+            <h1 className={`${lora.className} text-xl font-bold lg:text-xtra text-[#fbfbfb] hero-title slider-reveal mb-5`}>
              ENJOY THE  <br/>
              BEST MOMENTS OF LIFE
             </h1>
 
-            <p class={`${lora.className} text-lg hero-text slider-reveal text-white mt-12`}>
+            <p class={`${lora.className} text-base lg:text-lg hero-text slider-reveal text-white mt-12`}>
               THE ULTIMATE LUXURY EXPERIENCE
             </p>
 
