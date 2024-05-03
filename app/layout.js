@@ -1,6 +1,6 @@
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import Topbar from "./Components/Topbar";
+import NavbarComponent from "./Components/NavbarComponent";
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
        
-        <Topbar/>
+        <NavbarComponent/>
         
         
         {children}

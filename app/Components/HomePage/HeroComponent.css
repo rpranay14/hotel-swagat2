@@ -249,6 +249,9 @@
     font-size: var(--fontSize-body-2);
     line-height: var(--lineHeight-4);
   }
+  .bg-color-new{
+    background-color: rgba(0, 0, 0, 0.4);
+  }
   
   .body-3 { font-size: var(--fontSize-body-3); }
   
@@ -263,6 +266,14 @@
     background-image: url('../../../assets/hotel-exterior-image.jpg');
     background-position: center;
     background-size:contain
+  }
+  .hero-bg-img{
+    background-image: url('../../../assets/p14.jpeg');
+    opacity: 0.8;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size:cover
   }
   
   .background-image2::after {

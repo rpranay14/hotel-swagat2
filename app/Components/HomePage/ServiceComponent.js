@@ -21,55 +21,42 @@ const ServiceComponent = () => {
         <div className="w-[99%] md:w-[75%] shadow-2xl flex flex-col items-center lg:w-[40%] xl:w-[30%] px-10 py-3 gap-5 rounded-lg bg-[white]">
             <Image src={testimonialImage} width={50} height={50} />
             <div>
-            <p className="text-[#4D151B] font-semibold mb-2">Delightful Dining Experience at Gourmet Haven</p>
+            <p className="text-[#4D151B] font-semibold mb-2">A Tranquil Haven</p>
             <p className="text-xs text-center">
-              
-             I recently had the
-              pleasure of dining at Gourmet Haven, and I must say, it exceeded
-              all my expectations. From the moment I stepped in, the ambiance
-              transported me to a cozy, sophisticated haven away from the hustle
-              and bustle of the city.
+              Hotel Swagat provided a peaceful escape amidst the bustling beauty of Mount Abu. The serene ambiance, coupled with impeccable service, made our stay truly rejuvenating. The rooms were comfortable, and the staff went above and beyond to ensure our needs were met. Highly recommended for those seeking tranquility in Mount Abu.
             </p>
             </div>
             <div className="flex flex-col items-center">
-            <Image src={avatar} width={60} height={60} className="rounded-full mb-2"/>
-            <p className="text-center font-medium">Pranay Rawat</p>
+            
+            <p className="text-center font-medium">Pranay Khandelwal</p>
             </div>
           </div>
           <div  className="w-[99%] md:w-[75%] shadow-2xl flex flex-col items-center lg:w-[40%] xl:w-[30%] px-10 py-3 gap-5 rounded-lg bg-[white]">
             <Image src={testimonialImage} width={50} height={50} />
             <div>
-            <p className="text-[#4D151B] font-semibold mb-2">Delightful Dining Experience at Gourmet Haven</p>
+            <p className="text-[#4D151B] font-semibold mb-2">Royal Retreat</p>
             <p className="text-xs text-center">
               
-             I recently had the
-              pleasure of dining at Gourmet Haven, and I must say, it exceeded
-              all my expectations. From the moment I stepped in, the ambiance
-              transported me to a cozy, sophisticated haven away from the hustle
-              and bustle of the city.
+            Our experience at Hotel Swagat felt nothing short of royalty. From the moment we arrived, we were greeted with warmth and hospitality. The regal charm of the rooms combined with the stunning views of the Aravalli Range created a memorable stay. The on-site dining offered delicious Rajasthani cuisine, adding to the overall delightful experience.
             </p>
             </div>
             <div className="flex flex-col items-center">
-            <Image src={avatar} width={60} height={60} className="rounded-full mb-2"/>
-            <p className="text-center font-medium">Pranay Rawat</p>
+           
+            <p className="text-center font-medium">Chirag Shah</p>
             </div>
           </div>
           <div  className="w-[99%] md:w-[75%] shadow-2xl flex flex-col items-center lg:w-[40%] xl:w-[30%] px-10 py-3 gap-5 rounded-lg bg-[white]">
             <Image src={testimonialImage} width={50} height={50} />
             <div>
-            <p className="text-[#4D151B] font-semibold mb-2">Delightful Dining Experience at Gourmet Haven</p>
+            <p className="text-[#4D151B] font-semibold mb-2">Perfect Mountain Getaway</p>
             <p className="text-xs text-center">
               
-             I recently had the
-              pleasure of dining at Gourmet Haven, and I must say, it exceeded
-              all my expectations. From the moment I stepped in, the ambiance
-              transported me to a cozy, sophisticated haven away from the hustle
-              and bustle of the city.
+            Hotel Swagat exceeded our expectations as a mountain retreat in Mount Abu. The convenient location, just minutes away from Nakki Lake and the Toad Rock viewpoint, made exploring the area a breeze. The cozy rooms provided a comfortable haven after a day of sightseeing. With friendly staff and excellent amenities, our stay was nothing short of perfect.
             </p>
             </div>
             <div className="flex flex-col items-center">
-            <Image src={avatar} width={60} height={60} className="rounded-full mb-2"/>
-            <p className="text-center font-medium">Pranay Rawat</p>
+           
+            <p className="text-center font-medium">Shivangi Sharma</p>
             </div>
           </div>
         </div>

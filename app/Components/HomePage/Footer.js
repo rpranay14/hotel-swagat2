@@ -8,6 +8,7 @@ import { MdAlternateEmail, MdOutlinePhoneInTalk } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { Lora } from "next/font/google";
 import { LuFacebook } from "react-icons/lu";
+import Link from 'next/link';
 const lora = Lora({ subsets: ["latin"] });
 const Footer = () => {
   return (
@@ -19,12 +20,10 @@ const Footer = () => {
       </div>
       <div className='w-[80%] mt-5 sm:mt-0 sm:w-[13rem] md:w-[10rem] lg:w-[15rem] xl:w-[20rem]'>
         <p className='text-center  cursor-pointer hover:text-white text-xl mb-4'>Explore</p>
-        <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Home</p>
-        <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Rooms</p>
-        <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Facilities</p>
-        <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Testimonials</p>
-        
-        
+       <Link href='/'> <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Home</p></Link>
+       <Link href='/#rooms'> <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Rooms</p></Link>
+       <Link href='/#services'> <p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Our Services</p></Link>
+       <Link href='/#testimonial'><p className='text-center  text-base  cursor-pointer hover:text-white mb-1 text-[#ADADAD]'>Testimonials</p></Link>
       </div>
       <div className='w-[80%] mt-5 sm:mt-0 sm:w-[10rem] md:w-[15rem] lg:w-[20rem]'>
         <p className='text-center text-xl mb-4'>Contact Us</p>
@@ -33,7 +32,7 @@ const Footer = () => {
         <MdOutlinePhoneInTalk className='text-[#AA8453] w-12 h-12 gap-2'/>
         <div>
           <p className=''>Reservation</p>
-          <p className='text-xl font-semibold text-[#AA8453] '>0987654321</p>
+          <p className='text-xl font-semibold text-[#AA8453] '>+91 9229288705</p>
         </div>
        </div>
       </div>
@@ -41,6 +40,7 @@ const Footer = () => {
     </div>
     <div className='bg-[#1E1E1E] text-[#ADADAD]   py-4 '>
       <p className='text-center'>&copy; Copyright 2024 by Hotel Swagat</p>
+      <p className='text-center'>Designed & Developed by Pranay Rawat Email: rpranay14@gmail.com</p>
     </div>
     </>
   )

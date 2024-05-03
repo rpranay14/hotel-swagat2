@@ -10,7 +10,7 @@ const DirectionPage = () => {
       <p className={`${lora.className} font-normal text-[#000] text-x5l mt-1 mb-12 text-center`}>Contact Us</p>
       <div className=' mb-5 flex justify-center items-start '>
             <div className='flex flex-col gap-2  w-[20rem] items-center justify-center'><p className='text-lg text-[#AA8453]'>Address</p> <p>Hotel Swagat, Rajendra Rd, near Taxi Stand, Sani Gaon, Mount Abu, Rajasthan 307501</p></div>
-            <div className='flex flex-col gap-2  w-[20rem] items-center justify-center'><p className='text-lg text-[#AA8453]'>Mobile Number</p> <p>+91 9876543210</p></div>
+            <div className='flex flex-col gap-2  w-[20rem] items-center justify-center'><p className='text-lg text-[#AA8453]'>Mobile Number</p> <p>+91 9229288705</p></div>
         </div>
      <div className='flex justify-center items-center'>
        

@@ -1,6 +1,8 @@
 import React from 'react';
 import FIRST from '../../../assets/family-room.jpg'
-import SECOND from '../../../assets/family-deluxe-room.jpg'
+import SECOND from '../../../assets/p9.jpeg'
+import THIRD from '../../../assets/p14.jpeg'
+import FOURTH from '../../../assets/p15.jpeg'
 import Image from 'next/image';
 import { Lora } from 'next/font/google';
 import { MdOutlineHome } from "react-icons/md";
@@ -42,7 +44,7 @@ const FavouriteMenu = () => {
           </div>
         </div>
         <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
-          <Image src={FIRST} className="w-[100%] h-[15rem]"/>
+          <Image src={THIRD} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>DELUXE ROOM</p>
             <p className='text-justify mb-4 '>The room is spacious, 168 sq feet in size with all modern amenities and are designed as per Hotel Industry standards. It comes with an attached Bathroom, King size double-Bed along with chairs and coffee table and LCD TV with multi-channels.</p>
@@ -55,7 +57,7 @@ const FavouriteMenu = () => {
         </div>
 
         <div className='w-[24rem] sm:w-[35rem] lg:w-[30rem] bg-[#F8F5F0] pb-4 rounded-md overflow-hidden'>
-          <Image src={SECOND} className="w-[100%] h-[15rem]"/>
+          <Image src={FOURTH} className="w-[100%] h-[15rem]"/>
           <div className='px-3 py-2'>
             <p className='text-lg font-semibold mb-3'>SUPER DELUXE ROOM </p>
             <p className='text-justify mb-4 '>Family room have 2 king size bed 126 sq feet in size with all modern amenities and are designed as per Hotel Industry standards. It comes with an attached Bathroom, King size double-Bed along with chairs and coffee table and LCD TV with multi-channels.</p>

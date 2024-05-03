@@ -34,7 +34,7 @@ const ExcellentService = () => {
         <MdOutlinePhoneInTalk className='text-[#AA8453] w-12 h-12 gap-2'/>
         <div>
           <p className=''>Reservation</p>
-          <p className='text-lg mb-5 lg:mb-0  md:text-xl font-semibold text-[#AA8453] '>0987654321</p>
+          <p className='text-lg mb-5 lg:mb-0  md:text-xl font-semibold text-[#AA8453] '>+91 9229288705</p>
         </div>
        </div>
         </div>

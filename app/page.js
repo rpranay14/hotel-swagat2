@@ -11,10 +11,12 @@ import FavouriteMenu from "./Components/HomePage/FavouriteMenu";
 import HotelServices from "./Components/HomePage/HotelServices";
 import DirectionPage from "./Components/HomePage/DirectionPage";
 import RoomPage from "./Components/HomePage/RoomPage";
+import HeroSection from "./Components/HomePage/HeroSection";
 export default function Home() {
   return (
     <>
-     <HeroComponent/>
+     
+     <HeroSection/>
      <ExcellentService/>
      <FavouriteMenu />
      <HotelServices/>
