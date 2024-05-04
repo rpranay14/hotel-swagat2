@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <meta name="google-site-verification" content="DVs2nKfaVV5JizvB1JAzzvMCzMCiUStm8SPBopvnEP0" />
       <meta name="robots" content="all" />
       <meta name="keywords" content="hotel mount abu, mount abu hotel booking, abu hotels, mount abu hotels price 500 to 1000, abu hotel booking, mount abu hotels near nakki lake, best hotel in mount abu,Mount Abu hotel, Hotel Swagat, luxury accommodation, comfort, hospitality, Aravalli Range views, serene retreat, tranquility, premium rooms, suites, dining, restaurant, amenities, relaxation, vacation, getaway, travel, experience, best rates, cheap,"></meta>
       <link rel="canonical" href="https://hotelswagat.co.in/" />
