@@ -40,7 +40,7 @@ const Footer = () => {
     </div>
     <div className='bg-[#1E1E1E] text-[#ADADAD]   py-4 '>
       <p className='text-center'>&copy; Copyright 2024 by Hotel Swagat</p>
-      <p className='text-center'>Designed & Developed by Pranay Rawat Email: rpranay14@gmail.com</p>
+     
     </div>
     </>
   )
